@@ -9,7 +9,22 @@ Generative AI is crucial due to the following reasons:
  - It facilitates the development of powerful applications with reduced effort and time.
 
 ### Large Language Models (LLM)
-LLMs are advanced machine learning models that utilize deep learning algorithms to process and comprehend natural language. These models serve as the backbone of various Generative AI applications.
+ - LLMs are advanced machine learning models that utilize deep learning algorithms to process and comprehend natural language.
+ - These models serve as the backbone of various Generative AI applications.
+ - LLMs are based on transformers.
+ - In LLM, one model can perform variety of tasks like Text Generation, Chatbot, Summarizer, translation, code generation & so on...
+ - LLMs can be used for Text Classification, Text Generation, Text Summarization, Conversion AI like chatbot, Question Answering, Speech recognition, Speech Identification, Spelling corrector and so on...
+ - 
+
+### Transformers
+- Transformer Architecture
+
+![image](https://github.com/user-attachments/assets/9bf71c06-0adb-4c74-a932-76719c16b755)
+
+- Transformer Tree
+
+![image](https://github.com/user-attachments/assets/26851098-ca69-48d4-b99e-0856e8213c20)
+
 
 ### Generative AI Pipeline
 A Generative AI pipeline consists of sequential steps designed to build an end-to-end AI-powered system. The approach involves breaking down complex requirements into smaller, manageable sub-problems and developing a structured process to solve them.
@@ -21,6 +36,7 @@ A Generative AI pipeline consists of sequential steps designed to build an end-t
  - Evaluation
  - Deployment
  - Monitoring & Model Training
+
 ![image](https://github.com/user-attachments/assets/75609deb-b69f-4472-abdf-97c73d774466)
 
 
@@ -49,9 +65,9 @@ Data preprocessing is essential for cleaning and transforming raw data into a su
  - Sentence Tokenization
 
 ### 3. Feature Engineering
-Feature Engineering means converting text data to numerical data. but why it is required to convert text data to numerical data?. because our machine learning model doesn’t understand text data then we have to do feature engineering. This step is also called Feature extraction from text. I have already written a complete guide on Feature extraction techniques used in NLP. Click here. In this step, we use multiple techniques to convert text to numerical vectors.
+Feature Engineering means converting text data to numerical data. but why it is required to convert text data to numerical data?. because our machine learning model doesn’t understand text data then we have to do feature engineering. This step is also called Feature extraction from text. I have already written a complete guide on Feature extraction techniques used in NLP. Click here. In this step, we use multiple techniques to convert text to numerical vectors.  
 
-    1. One Hot Encoder
+    1. One Hot Encoder 
     2. Bag Of Word(BOW)
     3. n-grams
     4. Tf-Idf
